@@ -26,8 +26,8 @@
 ###  Authentication
 
 <div style="display: flex; gap: 20px;">
-  <img src="screenshots/RegistrationScreen.png" width="220"/>
-  <img src="screenshots/loginScreen.png" width="220"/>
+  <img src="RegistrationScreen.png" width="220"/>
+  <img src="loginScreen.png" width="220"/>
 </div>
 
 ---
@@ -35,23 +35,23 @@
 ### Home View
 
 <div style="display: flex; gap: 20px;">
-  <img src="screenshots/HomeScreen_cards_closed.png" width="220"/>
-  <img src="screenshots/HomeScreen_cards_opened.png" width="220"/>
+  <img src="HomeScreen_cards_closed.png" width="220"/>
+  <img src="HomeScreen_cards_opened.png" width="220"/>
 </div>
 
 ---
 
 ###  Profile & Stats
 
-<img src="screenshots/ProfileScreen.png" width="250"/>
+<img src="ProfileScreen.png" width="250"/>
 
 ---
 
 ###  Friends & Invites
 
 <div style="display: flex; gap: 20px;">
-  <img src="screenshots/SocialScreen.png" width="220"/>
-  <img src="screenshots/SocialScreen_invite.png" width="220"/>
+  <img src="SocialScreen.png" width="220"/>
+  <img src="SocialScreen_invite.png" width="220"/>
 </div>
 
 ---
