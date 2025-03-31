@@ -97,19 +97,18 @@ points = (volumeCl * (alcoholPercentage / 100)) / 1.485
 <hr>
 
 <h2>Screenshots</h2>
-<p>Place your images in the <code>screenshots/</code> directory. Example layout:</p>
 
 <div align="center">
-  <img src="screenshots/RegistrationScreen.png" width="220"/>
-  <img src="screenshots/LoginScreen.png" width="220"/>
-  <img src="screenshots/HomeScreen_nogroup.png" width="220"/>
-  <img src="screenshots/GameScreen_alone.png" width="220"/>
-  <img src="screenshots/GameScreen_full.png" width="220"/>
-  <img src="screenshots/GroupEditScreen.png" width="220"/>
-  <img src="screenshots/SocialScreen_nofriends.png" width="220"/>
-  <img src="screenshots/SocialScreen_friends.png" width="220"/>
-  <img src="screenshots/ProfileScreen.png" width="220"/>
-  <img src="screenshots/SettingsScreen.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/RegistrationScreen.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/LoginScreen.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/HomeScreen_nogroup.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/GameScreen_alone.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/GameScreen_full.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/GroupEditScreen.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/SocialScreen_nofriends.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/SocialScreen_friends.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/ProfileScreen.png" width="220"/>
+  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/Boozeup_screenshots/SettingsScreen.png" width="220"/>
 </div>
 
 <hr>
