@@ -1,11 +1,12 @@
 
-# BoozeUP 🍻
+# BoozeUP 🍻 
 
 BoozeUP is a social drinking game app where you can create groups, track your drinks, compete with friends, and view your drinking history — all in real time!
+(Android only for now, iOS support coming soon!)
 
 ## About the App
 
-The idea behind BoozeUP is to make social drinking more interactive and fun by allowing users to create groups, track consumption points based on drinks, and compete on leaderboards. Players can upload pictures, gain XP, and view their game history afterwards.
+The idea behind BoozeUP is to make social drinking more interactive and fun. Create groups, track your dricks, gain points, and compete on leaderboards. Players can upload pictures, gain XP, and view their game history and statistics afterwards.
 
 ## Features
 
@@ -14,7 +15,7 @@ The idea behind BoozeUP is to make social drinking more interactive and fun by a
 - ✅ **Unique points system** to gain points and climb up the leaderboard
 - ✅ **Photo taking** to create a shared photo album
 - ✅ **Advanced Admin tools** to ensure smooth gameplay
-- ✅ **Friend system** to build up social circle
+- ✅ **Friend system** to build a social circle
 - ✅ **XP system** (daily login, games, new friends)
 - ✅ **Blood Alcohol Calculator** (coming soon)
 - ✅ **Track your statistics** over long period of time
@@ -26,8 +27,20 @@ The idea behind BoozeUP is to make social drinking more interactive and fun by a
 
 | HomeScreen (Leaderboard) | Profile (Statistics) | Social (Friends & Invites) | Settings (Themes, Language, Account) | Login Screen |
 | :----------------------- | :------------------- | :------------------------ | :----------------------------------- | :----------- |
-| ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_ingame.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_profile.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_social.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_settings.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_login.png) |
+| ![](boozeup_ingame.png) | ![](boozeup_profile.png) | ![](boozeup_social.png) | ![](boozeup_settings.png) | ![](boozeup_login.png) |
 
 ## Conclusion
 
 BoozeUP transforms a casual night out into a friendly competition! With real-time updates and personal stats, it makes tracking drinks social and fun. Whether you’re hosting a party or meeting friends, BoozeUP adds a little extra excitement to your evening.
+
+## Technologies
+
+- Kotlin
+- Jetpack Compose
+- Firebase (Realtime Database, Auth and Storage)
+- Room Database (SQL based, fully migrated to firebase for now)
+- XML
+- HTML (for documentation)
+- Swift (for iOS, not yet published)
+
+  
