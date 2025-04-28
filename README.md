@@ -5,7 +5,7 @@ BoozeUP is a social drinking game app where you can create groups, track your dr
 
 ## About the App
 
-The idea behind BoozeUP is to make social drinking more interactive and fun. Create groups, track drinks, gain points, and compete on leaderboards. Players can upload pictures, gain XP, and view their game history and statistics afterwards.
+The idea behind BoozeUP is to make social drinking more interactive and fun by allowing users to create groups, track consumption points based on drinks, and compete on leaderboards. Players can upload pictures, gain XP, and view their game history afterwards.
 
 ## Features
 
@@ -14,7 +14,7 @@ The idea behind BoozeUP is to make social drinking more interactive and fun. Cre
 - ✅ **Unique points system** to gain points and climb up the leaderboard
 - ✅ **Photo taking** to create a shared photo album
 - ✅ **Advanced Admin tools** to ensure smooth gameplay
-- ✅ **Friend system**
+- ✅ **Friend system** to build up social circle
 - ✅ **XP system** (daily login, games, new friends)
 - ✅ **Blood Alcohol Calculator** (coming soon)
 - ✅ **Track your statistics** over long period of time
@@ -24,15 +24,9 @@ The idea behind BoozeUP is to make social drinking more interactive and fun. Cre
 
 ## Screenshots
 
-| HomeScreen (Leaderboard) | Profile (Statistics) | Social (Friends & Invites) | Settings (Themes, Language, Account) |
-| :----------------------- | :------------------- | :------------------------ | :----------------------------------- |
-| ![](https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/assets/screenshots/boozeup_ingame.png) | ![](https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/assets/screenshots/boozeup_profile.png) | ![](https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/assets/screenshots/boozeup_social.png) | ![](https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/assets/screenshots/boozeup_settings.png) |
-
-### Login Screen
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/valtterikonen/BoozeUP-site/main/assets/screenshots/boozeup_login.png" width="400"/>
-</p>
+| HomeScreen (Leaderboard) | Profile (Statistics) | Social (Friends & Invites) | Settings (Themes, Language, Account) | Login Screen |
+| :----------------------- | :------------------- | :------------------------ | :----------------------------------- | :----------- |
+| ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_ingame.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_profile.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_social.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_settings.png) | ![](https://github.com/valtterikonen/BoozeUP-site/raw/main/assets/screenshots/boozeup_login.png) |
 
 ## Conclusion
 
