@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BoozeUP – Social Drinking Game</title>
+  <meta name="description" content="BoozeUP is a social drinking game app for Android. Create groups, track drinks, spin the wheel, and compete on a live leaderboard."/>
+  <meta property="og:title" content="BoozeUP – Social Drinking Game" />
+  <meta property="og:description" content="Create groups, track drinks, and compete in real time. Android first." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0e1525" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+  <div class="brand">
+    <img class="logo" src="mascot_logo_compressed.png" alt="BoozeUP logo" />
+    <div class="titlewrap">
+      <h1>BoozeUP</h1>
+      <p class="subtitle">Social drinking game app</p>
+    </div>
+  </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h2>BoozeUP your party!</h2>
+        <p>Create a group, track drinks live and earn points - all in real time.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#screens">See the app</a>
+        </div>
+        <p class="note">Available on Android • iOS coming later</p>
+      </div>
+      <div class="hero-card">
+        <img src="boozeup_ingame.png" alt="BoozeUP HomeScreen / Leaderboard" />
+      </div>
+    </div>
+    <div class="grid-bg" aria-hidden="true"></div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container narrow">
+      <h3>About</h3>
+      <p>
+        BoozeUP makes social drinking interactive and fun. Create groups, track your drinks and volume,
+        climb up the leaderboard, gain XP, test your luck on the spinning wheel and view your game history and statistics afterwards.
+      </p>
+    </div>
+  </section>
+
+  <section id="features" class="section features">
+    <div class="container narrow">
+      <h3>Features</h3>
+      <ul class="feature-list">
+        <li>✅ Create or join groups with friends</li>
+        <li>✅ Unique points system & live leaderboard</li>
+        <li>✅ LuckyWheel for boosters</li>
+        <li>✅ Admin tools for smooth games</li>
+        <li>✅ Friend system & XP rewards</li>
+        <li>✅ Blood Alcohol Concentration</li>
+        <li>✅ Long–term statistics</li>
+        <li>✅ Game history tracking</li>
+        <li>✅ Theme & language settings (Light/Dark/Retro, EN/FI)</li>
+        <li>✅ Firebase Authentication (Anonymous, Google)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="screens" class="section screenshots">
+    <div class="container">
+      <h3>Screenshots</h3>
+      <div class="shots-grid">
+        <figure><img src="boozeup_ingame.png" alt="HomeScreen (Leaderboard)"><figcaption>Home (ingame)</figcaption></figure>
+        <figure><img src="boozeup_fab.png" alt="FAB-button"><figcaption>FAB-menu</figcaption></figure>
+        <figure><img src="boozeup_luckywheel.png" alt="Lucky Wheel"><figcaption>Lucky Wheel</figcaption></figure>
+        <figure><img src="boozeup_profile.png" alt="Profile (Statistics)"><figcaption>Profile</figcaption></figure>
+        <figure><img src="boozeup_social.png" alt="Social (Friends & Invites)"><figcaption>Social</figcaption></figure>
+        <figure><img src="boozeup_settings.png" alt="Settings (Themes, Language, Account)"><figcaption>Settings</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech" class="section tech">
+    <div class="container narrow">
+      <h3>Technologies</h3>
+      <ul>
+        <li>Kotlin + Jetpack Compose</li>
+        <li>Firebase (Realtime Database, Auth, Storage)</li>
+        <li>Room (migrated off, kept for local experiments)</li>
+        <li>XML (legacy components)</li>
+        <li>HTML/CSS (docs & landing)</li>
+        <li>Swift (iOS, not yet published)</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> BoozeUP • Built by Valtteri I.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
