@@ -86,3 +86,30 @@ body{
   .screenshots .span2{grid-column: span 1}
   .features .feature-list{grid-template-columns:1fr}
 }
+
+.footer-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.footer-link{
+  font-size:14px;
+  text-decoration:none;
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.15);
+  background:rgba(15,21,36,.9);
+  color:var(--brand-2);
+  font-weight:500;
+  transition:background .15s ease, transform .1s ease, box-shadow .15s ease;
+}
+
+.footer-link:hover{
+  background:var(--brand);
+  color:#fff;
+  box-shadow:0 6px 20px rgba(30,102,255,.45);
+  transform:translateY(-1px);
+}

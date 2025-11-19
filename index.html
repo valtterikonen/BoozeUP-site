@@ -18,13 +18,14 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-  <div class="brand">
-    <img class="logo" src="mascot_logo_compressed.png" alt="BoozeUP logo" />
-    <div class="titlewrap">
-      <h1>BoozeUP</h1>
-      <p class="subtitle">Social drinking game app</p>
+      <div class="brand">
+        <img class="logo" src="mascot_logo_compressed.png" alt="BoozeUP logo" />
+        <div class="titlewrap">
+          <h1>BoozeUP</h1>
+          <p class="subtitle">Social drinking game app</p>
+        </div>
+      </div>
     </div>
-  </div>
   </header>
 
   <section class="hero">
@@ -60,14 +61,14 @@
       <ul class="feature-list">
         <li>✅ Create or join groups with friends</li>
         <li>✅ Unique points system & live leaderboard</li>
-        <li>✅ LuckyWheel for boosters</li>
-        <li>✅ Admin tools for smooth games</li>
+        <li>✅ LuckyWheel</li>
+        <li>✅ Admin tools</li>
         <li>✅ Friend system & XP rewards</li>
         <li>✅ Blood Alcohol Concentration</li>
         <li>✅ Long–term statistics</li>
         <li>✅ Game history tracking</li>
         <li>✅ Theme & language settings (Light/Dark/Retro, EN/FI)</li>
-        <li>✅ Firebase Authentication (Anonymous, Google)</li>
+        <li>✅ Secure Authentication (Anonymous, Google)</li>
       </ul>
     </div>
   </section>
@@ -86,11 +87,21 @@
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container">
+    <footer class="site-footer">
+    <div class="container footer-inner">
       <p>© <span id="year"></span> BoozeUP • Built by Valtteri I.</p>
+
+      <a
+        href="privacy-policy.html"
+        class="footer-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Privacy Policy
+      </a>
     </div>
   </footer>
+
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
