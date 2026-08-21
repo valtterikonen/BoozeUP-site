@@ -1,0 +1,9 @@
+{
+  "name": "BoozeUp",
+  "short_name": "BoozeUp",
+  "start_url": "/BoozeUP-site/play/",
+  "scope": "/BoozeUP-site/play/",
+  "display": "standalone",
+  "background_color": "#FFF9F2",
+  "theme_color": "#D89B37"
+}
